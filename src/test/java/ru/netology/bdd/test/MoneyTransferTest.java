@@ -28,7 +28,6 @@ public class MoneyTransferTest {
         secondCardInfo = getSecondCardInfo();
         firstCardBalance = dashboardPage.getCardBalance(firstCardInfo);
         secondCardBalance = dashboardPage.getCardBalance(secondCardInfo);
-
     }
 
     @Test
